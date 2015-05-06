@@ -1,11 +1,11 @@
 <?php echo $header; ?>
 <div id="content">
 	<div class="main-content">
-		<div class="cont-title">Все букеты в г.Москва - Выбрано: Яркий</div>
+		<div class="cont-title"><?php echo $heading_title; ?></div>
 
 		<div id='tovar'>
 			<div class="tovar-img">
-				<img src="catalog/view/theme/default/image/tovar-1.jpg">
+				<img width='100%' src="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" />
 			</div>
 			<div class="tovar-img">
 				<img src="catalog/view/theme/default/image/tovar-2.jpg">
