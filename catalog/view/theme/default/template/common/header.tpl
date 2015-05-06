@@ -24,23 +24,210 @@
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
-<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<!--<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />-->
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
-<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-<?php foreach ($styles as $style) { ?>
+
+<?/*php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
 <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <?php foreach ($scripts as $script) { ?>
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
-<?php } ?>
+<?php } */?>
 <?php echo $google_analytics; ?>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700&subset=cyrillic,cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+<link href="catalog/view/theme/default/stylesheet/style.css" rel="stylesheet">
 </head>
 <body class="<?php echo $class; ?>">
-<nav id="top">
-  <div class="container">
+<div id="wrapper">
+			<!-- Шапка -->
+			<div id="header">
+				<div class='logotupe'>
+					<a href='#'><img src='catalog/view/theme/default/image/logotupe.png' alt="Где радость - ваш текст"></a>
+				</div>
+				<div class='header-text'>
+					Доставка шаров<br />
+					с гелием круглосуточно
+				</div>
+				<div class='header-address'>
+					<div class='t-city'>Москва</div>
+					<div class='t-adr'>м. Александровский Сад</div>
+					<div class='t'><a href='#'>Доставка и Оплата</a></a></div>
+				</div>
+				<div class='header-contact'>
+					<div class='t-mob'>+8 (499) 501-34-36</div>
+					<div class='t-mob-text'>Ждем, Ваши, звонки с 9:00 до 21:00</div>
+					<div class='t-mob-code'>Код для подарка: <span>894606</span></div>
+				</div>
+			</div>
+			<!-- Навигация -->
+            <div id="menu-bg">
+				<nav id="menu-wrap">    
+					<ul id="menu">
+						<li><a href="/">Каталог</a></li>
+						<li>
+							<a href="">Спецпредложение</a>
+							<ul>
+								<li>
+									<a href="">Пункт_1</a>
+									<ul>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+									</ul>				
+								</li>
+								<li>
+									<a href="">Пункт_2</a>
+									<ul>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+									</ul>				
+								</li>
+								<li>
+									<a href="">Пункт_3</a>
+									<ul>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+									</ul>				
+								</li>
+								<li>
+									<a href="">Пункт_4</a>				
+									<ul>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+										<li><a href="">Пункт_1</a></li>
+									</ul>	
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">Мероприятие</a>
+							<ul>
+								<li>
+									<a href="">Мероприятие 1</a>
+									<ul>
+										<li>
+											<a href="">Work 11</a>		
+											<ul>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+											</ul>							
+										</li>
+										<li>
+											<a href="">Мероприятие 2</a>
+											<ul>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+											</ul>						
+										</li>
+										<li>
+											<a href="">Мероприятие 3</a>
+											<ul>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+												<li><a href="">Пункт_1</a></li>
+											</ul>						
+										</li>
+									</ul>					
+								</li>
+								<li>
+									<a href="">Work 2</a>
+									<ul>
+										<li>
+											<a href="">Work 21</a>
+											<ul>
+												<li><a href="">Work 211</a></li>
+												<li><a href="">Work 212</a></li>
+												<li><a href="">Work 213</a></li>
+											</ul>							
+										</li>
+										<li>
+											<a href="">Work 22</a>
+											<ul>
+												<li><a href="">Work 221</a></li>
+												<li><a href="">Work 222</a></li>
+												<li><a href="">Work 223</a></li>
+											</ul>							
+										</li>
+										<li>
+											<a href="">Work 23</a>
+											<ul>
+												<li><a href="">Work 231</a></li>
+												<li><a href="">Work 232</a></li>
+												<li><a href="">Work 233</a></li>
+											</ul>							
+										</li>
+									</ul>					
+								</li>
+								<li>
+									<a href="">Work 3</a>
+									<ul>
+										<li>
+											<a href="">Work 31</a>
+											<ul>
+												<li><a href="">Work 311</a></li>
+												<li><a href="">Work 312</a></li>
+												<li><a href="">Work 313</a></li>
+											</ul>							
+										</li>
+										<li>
+											<a href="">Work 32</a>
+											<ul>
+												<li><a href="">Work 321</a></li>
+												<li><a href="">Work 322</a></li>
+												<li><a href="">Work 323</a></li>
+											</ul>							
+										</li>
+										<li>
+											<a href="">Work 33</a>
+											<ul>
+												<li><a href="">Work 331</a></li>
+												<li><a href="">Work 332</a></li>
+												<li><a href="">Work 333</a></li>
+											</ul>							
+										</li>
+									</ul>					
+								</li>
+							</ul>		
+						</li>
+						<li><a href="">Детские герои</a></li>
+						<li><a href="">Типы шаров</a></li>
+						<form>
+							<div class="box">
+								<div class="container-1">
+									<input type="search" id="search" placeholder="Поиск..." />
+									<input type="image" class="searchv2_3" src="catalog/view/theme/default/image/spacer.gif" alt="">
+								</div>
+							</div>
+						</form>
+					</ul>
+				</nav>
+				<div class='menu-bottom'>
+					<div class='menu-b'><a href=''>Свадьба</a></div>
+					<div class='menu-b'><a href=''>Дни рождения</a></div>
+					<div class='menu-b'><a href=''>Детский праздник</a></div>
+					<div class='menu-b'><a href=''>Выписка</a></div>
+					<div class='menu-b'><a href=''>Влюбленным</a></div>
+					<div class='menu-b'><a href=''>Выпускной</a></div>
+					<div class='basket'><div class='count'><span>3</span></div><a href=''>Корзина</a></div>
+					<div class='complate'><a href=''>Оформить заказ </a></div>
+				</div>
+				<div class='low-menu'><a href=''>Главная</a>  > <a href=''>Мероприятия</a></div>
+            </div>
+ <!--<nav id="top">
+ <div class="container">
     <?php echo $currency; ?>
     <?php echo $language; ?>
     <div id="top-links" class="nav pull-right">
@@ -117,3 +304,4 @@
   </nav>
 </div>
 <?php } ?>
+-->
