@@ -1,4 +1,147 @@
 <?php echo $header; ?>
+<div id="content">
+	<div class="main-content">
+		<div class="cont-title">Все букеты в г.Москва - Выбрано: Яркий</div>
+
+		<div id='tovar'>
+			<div class="tovar-img">
+				<img src="catalog/view/theme/default/image/tovar-1.jpg">
+			</div>
+			<div class="tovar-img">
+				<img src="catalog/view/theme/default/image/tovar-2.jpg">
+			</div>
+		</div>
+		<div class="cont-err">Вам также может понравиться<a href="">Сбросить фильтр</a></div>
+		<div class="goods">
+				<div class="cargo-t">
+					<div class="cargo-img"></div>
+					<div class="cargo-name"><a href="">Название</a></div>
+					<div class="cargo-text">Хороший товар для хороших хозяек</div>
+					<div class="cargo-info"><span>50</span> р./шт.       <spar>В наличии</spar></div>
+					<div class="buy">
+						<input type="text" class="buy-item" value="0">
+						<div class="buy-button">Заказать</div>
+					</div>
+				</div>
+				<div class="cargo-t">
+					<div class="cargo-img"></div>
+					<div class="cargo-name"><a href="">Название</a></div>
+					<div class="cargo-text">Хороший товар для хороших хозяек</div>
+					<div class="cargo-info"><span>50</span> р./шт.       <spar>В наличии</spar></div>
+					<div class="buy">
+						<input type="text" class="buy-item" value="0">
+						<div class="buy-button">Заказать</div>
+					</div>
+				</div>
+				<div class="cargo-t">
+					<div class="cargo-img"></div>
+					<div class="cargo-name"><a href="">Название</a></div>
+					<div class="cargo-text">Хороший товар для хороших хозяек</div>
+					<div class="cargo-info"><span>50</span> р./шт.       <spar>В наличии</spar></div>
+					<div class="buy">
+						<input type="text" class="buy-item" value="0">
+						<div class="buy-button">Заказать</div>
+					</div>
+				</div>
+				<div class="cargo-t">
+					<div class="cargo-img"></div>
+					<div class="cargo-name"><a href="">Название</a></div>
+					<div class="cargo-text">Хороший товар для хороших хозяек</div>
+					<div class="cargo-info"><span>50</span> р./шт.       <spar>В наличии</spar></div>
+					<div class="buy">
+						<input type="text" class="buy-item" value="0">
+						<div class="buy-button">Заказать</div>
+					</div>
+				</div>
+				<div class="cargo-t">
+					<div class="cargo-img"></div>
+					<div class="cargo-name"><a href="">Название</a></div>
+					<div class="cargo-text">Хороший товар для хороших хозяек</div>
+					<div class="cargo-info"><span>50</span> р./шт.       <spar>В наличии</spar></div>
+					<div class="buy">
+						<input type="text" class="buy-item" value="0">
+						<div class="buy-button">Заказать</div>
+					</div>
+				</div>
+
+			</div>
+			<div>
+				<div class="cargo-left">
+						<div class="cargo-err">Доставка и оплата</div>
+						<div class="cargo-n-text">
+							Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого отношения к обитателям водоемов. Используется он веб-дизайнерами для вставки на интернет-страницы и демонстрации внешнего вида контента, просмотра шрифтов, абзацев, отступов и т.д. Так как цель применения такого текста исключительно демонстрационная, то и смысловую нагрузку ему нести совсем необязательно. Более того, нечитабельность текста сыграет на руку при оценке качества восприятия макета.
+							<br />
+							Самым известным «рыбным» текстом является знаменитый Lorem ipsum. Считается, что впервые его применили в книгопечатании еще в XVI веке. Своим появлением Lorem ipsum обязан древнеримскому философу Цицерону, ведь именно из его трактата «О пределах добра и зла» средневековый книгопечатник вырвал отдельные фразы и слова, получив текст-«рыбу», широко используемый и по сей день. Конечно, возникают некоторые вопросы, связанные с использованием Lorem ipsum на сайтах и проектах, ориентированных на кириллический контент – написание символов на латыни и на кириллице значительно различается.
+							<br /><a href="">Войдет ли заказ в авто?</a>
+							<br /><a href="">Увезу ли я заказ на метро?</a>
+						</div>
+				</div>
+				<div class="cargo-left">
+					<div class="cargo-err">Способы оплаты интернет-заказа</div>
+					<a href="" class="op">
+						<img src="catalog/view/theme/default/image/op-1.jpg">
+					</a>
+					<a href="" class="op">
+						<img src="catalog/view/theme/default/image/op-2.jpg">
+					</a>
+					<a href="" class="op">
+						<img src="catalog/view/theme/default/image/op-3.jpg">
+					</a>
+					<a href="" class="op">
+						<img src="catalog/view/theme/default/image/op-4.jpg">
+					</a>
+					<a href="" class="op">
+						<img src="catalog/view/theme/default/image/op-5.jpg">
+					</a>
+					<a href="" class="op">
+						<img src="catalog/view/theme/default/image/op-6.jpg">
+					</a>
+				</div>
+			</div>
+			<div>
+				<div class="cargo-left">
+					<div class="cargo-err">Отзывы</div>
+					<div class="otz-link"><a href="">Добавить отзыв</a></div>
+						<div class="otz">
+							<div class='otz-date'>07 апреля 2015 г.</div>
+							<div class='otz-txt'>
+								Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого отношения к обитателям водоемов. Используется он веб-дизайнерами для вставки на интернет-страницы.
+							</div>
+							<div class='otz-autor'>
+								Кухаренко Екатерина Сергеевна
+							</div>
+						</div>
+						<div class="otz">
+							<div class='otz-date'>07 апреля 2015 г.</div>
+							<div class='otz-txt'>
+								Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого отношения к обитателям водоемов. Используется он веб-дизайнерами для вставки на интернет-страницы.
+							</div>
+							<div class='otz-autor'>
+								Кухаренко Екатерина Сергеевна
+							</div>
+						</div>
+					<div class="otz-link"><a href="">Посмотреть все отзывы</a></div>
+				</div>
+				<div class="cargo-left">
+					<div class="cargo-err">Новости</div>
+
+						<div class="otz">
+							<div class='otz-date'>07 апреля 2015 г.</div>
+							<div class="otz-link"><a href="">График работы и условия доставки на 22 и 23 мая</a></div>
+							<div class='otz-txt'>
+								Наши любимые клиенты!
+								<br /><br />
+								Самым известным «рыбным» текстом является знаменитый Lorem ipsum. Считается, что впервые его применили в книгопечатании еще в XVI веке. Своим появлением Lorem ipsum обязан древнеримскому философу Цицерону, ведь именно из его трактата «О пределах добра и зла» средневековый книгопечатник вырвал отдельные фразы и слова, получив текст-«рыбу», широко используемый и по сей день. 
+							</div>
+
+						</div>
+
+					<div class="otz-link"><a href="">Посмотреть все новости</a></div>
+				</div>
+			</div>
+	</div>
+	</div>
+<!--
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -335,10 +478,10 @@
               <?php } ?>
               <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"><?php echo $reviews; ?></a> / <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;"><?php echo $text_write; ?></a></p>
             <hr>
-            <!-- AddThis Button BEGIN -->
+            <!-- AddThis Button BEGIN --><!--
             <div class="addthis_toolbox addthis_default_style"><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a> <a class="addthis_counter addthis_pill_style"></a></div>
             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script> 
-            <!-- AddThis Button END --> 
+            <!-- AddThis Button END --> <!--
           </div>
           <?php } ?>
         </div>
@@ -436,7 +579,7 @@ $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
 		}
 	});
 });
-//--></script> 
+//--><!--</script> 
 <script type="text/javascript"><!--
 $('#button-cart').on('click', function() {
 	$.ajax({
@@ -487,7 +630,7 @@ $('#button-cart').on('click', function() {
 		}
 	});
 });
-//--></script> 
+//--><!--</script> 
 <script type="text/javascript"><!--
 $('.date').datetimepicker({
 	pickTime: false
@@ -549,7 +692,7 @@ $('button[id^=\'button-upload\']').on('click', function() {
 		}
 	}, 500);
 });
-//--></script> 
+//--><!--</script> 
 <script type="text/javascript"><!--
 $('#review').delegate('.pagination a', 'click', function(e) {
   e.preventDefault();
@@ -605,5 +748,5 @@ $(document).ready(function() {
 		}
 	});
 });
-//--></script> 
+//--><!--</script> -->
 <?php echo $footer; ?>
