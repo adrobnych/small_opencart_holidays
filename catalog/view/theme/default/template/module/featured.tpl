@@ -1,3 +1,26 @@
+<div class="cont">
+		<div class='cont-title'>Воздушные шары</div>
+		<div class="cont-menu">
+			<a href="">Дешевые</a>
+			<a href="">День Рождения</a>
+			<a href="">Крассный</a>
+		</div>
+		<div class="cont-err">Выводятся только: Крассный<a href="">Сбросить фильтр</a></div>
+		<div class="goods">
+			<?php foreach ($products as $product) { ?>
+				<div class="cargo">
+					<div class="cargo-img"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></div>
+					<div class="cargo-name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+					<div class="cargo-text"><?php echo $product['description']; ?></div>
+					<div class="cargo-info"><span><?php $sdPrice = explode('.',$product['price']); echo $sdPrice[0]; ?></span> р./шт.       <spar>В наличии</spar></div>
+					<div class="buy">
+						<input type="text" class="buy-item" value="1">
+						<div class="buy-button" onclick="cart.add('<?php echo $product['product_id']; ?>');" >Заказать</div>
+					</div>
+				</div>
+			<?php } ?>
+		</div>
+	</div><!--
 <h3><?php echo $heading_title; ?></h3>
 <div class="row">
   <?php foreach ($products as $product) { ?>
@@ -40,3 +63,4 @@
   </div>
   <?php } ?>
 </div>
+-->

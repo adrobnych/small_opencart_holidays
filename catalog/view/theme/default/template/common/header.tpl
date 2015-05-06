@@ -28,13 +28,13 @@
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-<?/*php foreach ($styles as $style) { ?>
+<?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
 <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <?php foreach ($scripts as $script) { ?>
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
-<?php } */?>
+<?php } ?>
 <?php echo $google_analytics; ?>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700&subset=cyrillic,cyrillic-ext,latin' rel='stylesheet' type='text/css'>
 <link href="catalog/view/theme/default/stylesheet/style.css" rel="stylesheet">

@@ -557,6 +557,8 @@ text-decoration: none;
 	font-family: "Open Sans";
 	color: #000;
 	margin-left: 8px;
+	height: 40px;
+	overflow: hidden;
 }
 	
 .cargo-info {
@@ -900,4 +902,7 @@ input[type="radio"]:checked + label span {
 	margin-right: 3px;
 	text-align: center;
 	color: #000;
+}
+.cargo-img img{
+	width: 100%;
 }

@@ -90,6 +90,26 @@
 		</div>
 	</div>
 	<div class="right">
+		<div class="motivator">
+		<div class="mot-1">
+			<div class="mot-ico"><span><img src="catalog/view/theme/default/image/ico-1.png"></span><spar>Гарантия</spar> полета до 3х дней</div>
+			<div class="mot-ico"><span><img src="catalog/view/theme/default/image/ico-2.png"></span><spar>Вернем деньги</spar>, если шарики не понравятся</div>
+			<div class="mot-ico"><span><img src="catalog/view/theme/default/image/ico-3.png"></span><spar>Поможем найти</spar> шарики на любое мероприятие</div>
+			<div class="mot-ico"><span><img src="catalog/view/theme/default/image/ico-4.png"></span>Шарики от <spar>35</spar> руб.</div>
+		</div>
+		<div class="mot-2">
+			{date}
+		</div>
+		<div class="mot-3">
+			<div class="mot-3-title">Заявка</div>
+			<div class="mot-3-text">на шарики <br />по низкой цене</div>
+			<div class="input-form">Имя</div>
+			<div class="input-form">Телефон</div>
+			<a href=""><img src="catalog/view/theme/default/image/button.png"></a>
+			<div class="mot-mod">оставьте заявку и с Вами<br />свяжутся в течении 15 минут</div>
+		</div>
+	</div>
+	
 		<?php echo $column_left; ?>
 		
 		<?php if ($column_left && $column_right) { ?>
