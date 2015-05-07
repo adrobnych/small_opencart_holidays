@@ -44,7 +44,7 @@
 			<!-- Шапка -->
 			<div id="header">
 				<div class='logotupe'>
-					<a href='#'><img src='catalog/view/theme/default/image/logotupe.png' alt="Где радость - ваш текст"></a>
+					<a href='/'><img src='catalog/view/theme/default/image/logotupe.png' alt="Где радость - ваш текст"></a>
 				</div>
 				<div class='header-text'>
 					Доставка шаров<br />

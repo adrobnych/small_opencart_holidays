@@ -1,4 +1,4 @@
-<div class="panel panel-default">
+<!--<div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title"><a href="#collapse-shipping" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"><?php echo $heading_title; ?> <i class="fa fa-caret-down"></i></a></h4>
   </div>
@@ -158,7 +158,7 @@ $(document).delegate('#button-shipping', 'click', function() {
 		}
 	});
 });
-//--></script>
+</script>
 <script type="text/javascript"><!--
 $('select[name=\'country_id\']').on('change', function() {
 	$.ajax({
@@ -204,7 +204,7 @@ $('select[name=\'country_id\']').on('change', function() {
 });
 
 $('select[name=\'country_id\']').trigger('change');
-//--></script>
+</script>
     </div>
   </div>
-</div>
+</div>-->

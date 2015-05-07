@@ -1,5 +1,23 @@
 <?php echo $header; ?>
-<div class="container">
+<div id="content">
+	<div class="main-content">
+		<div class="cont-title">Ваш заказ:</div>
+		<div class="korz-form">
+			<div class="cargo-err">Пожалуйста, введите Ваши контактные данные:</div>
+			<div class="">Имя и фамилия: <input type="text" class="ft-from" ></div>
+			<div class="">Контактный телефон: <input type="text" class="ft-from" ></div>
+			<div class="">Электрнная почта: <input type="text" class="ft-from" ></div>
+
+			Ваши контакты необходимы, чтобы наш менеджер мог уточнить детали заказа.
+			Проверьте, все ли заполнено правильно.
+		</div>
+		<div class="korz-form">
+			<div class="cargo-err">Доставка заказа:</div>
+			Куда доставить:
+		</div>
+	</div>
+</div>
+<!--<div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
     <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
@@ -121,5 +139,5 @@
       </div>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
-</div>
+</div>-->
 <?php echo $footer; ?> 
